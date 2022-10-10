@@ -1,0 +1,103 @@
+body {
+  background-color: rgba(189, 189, 189, 0.669);
+}
+
+main {
+  display: flex;
+}
+
+#list {
+  flex: 2;
+  text-align: center;
+}
+
+#details {
+  flex: 1;
+  background-color: rgb(255, 255, 255);
+  justify-content: center;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 10px;
+  
+}
+
+div button {
+  margin-left: 35%;
+}
+
+#iImportant {
+  font-size: xx-large;
+}
+
+.form-control {
+  background-color: rgba(189, 189, 189, 0.236);
+  margin: 9px;
+}
+
+.task-list {
+  padding-right: 10px;
+}
+
+.task {
+  background-color: aliceblue;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.task .sec-1 {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: antiquewhite;
+}
+
+.task #iDelete {
+  color: gray;
+  float: right;
+}
+
+.task #iDelete:hover {
+  color: red;
+}
+
+.task #iDone {
+  color: gray;
+  float: left;
+}
+
+.task #iDone:hover {
+  color: rgb(0, 255, 8);
+}
+.task .sec-2 {
+  display: flex;
+}
+
+.task .sec-title {
+  flex: 5;
+  color: black;
+}
+
+.task .sec-title h5 {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.task .sec-title p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.task .sec-date {
+  flex: 2;
+  text-align: center;
+}
+
+.task .sec-location {
+  flex: 3;
+}
+
+.hide{
+    
+    display: none;
+}
